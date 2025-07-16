@@ -1,0 +1,14 @@
+<component>
+    <previews>
+        <preview  width="1280" height="720"/>
+    </previews>
+
+  
+    <styles>
+        <style name="main" width="1280" height="720"/>
+        
+    </styles>
+    
+    <view extends="lv_image" src="img_back" >
+    </view> 
+</component>

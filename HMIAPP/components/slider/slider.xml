@@ -1,0 +1,22 @@
+<component>
+    
+    <api>
+        <prop name="brightness" type="subject" default="brightness_level"/>
+    </api>
+
+    <styles>
+        <style name="main" x="500" y="200" />
+        <style name="label_style" text_font="font_subtitle" text_color="0x64de1b"/>
+        <style name="slider_style" width="300" height="21" bg_color="0x1ddb32" pad_all="4"/>
+    </styles>
+
+    <view flex_flow="column" style_pad_all="10" style_pad_row="50" style_border_width="0" height="240" width="320">
+        <lv_label text="Brightness" styles="label_style"/>
+            <lv_slider bind_value="$brightness" styles="slider_style"/>
+    </view>
+  <!-- <view extends="lv_slider"  width="290" height="280" x="10" y="10"> -->
+
+    <!-- <view extends="main" >
+    </view> -->
+
+</component>

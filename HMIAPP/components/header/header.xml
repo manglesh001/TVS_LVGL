@@ -1,0 +1,64 @@
+<component>
+    <api>
+        <prop name="title" type="string" default="TVS MOTOR"></prop>
+    </api>
+    <styles>
+        <style name="main" bg_color="0x34304a"
+        border_width="2" border_side="bottom" border_color="0x47d81f"
+        radius="0" width="100%" height="32"
+        pad_hor="6"
+        layout="flex"
+        flex_cross_place="center"
+        flex_track_place="center"
+        flex_flow="row"
+        text_color="0xe1d8d8"
+        />
+        <style name="button_left"
+        bg_color="0xde1717"
+        
+
+        
+        
+            y="-5" x="5"
+        />
+
+        <style name="button_right"
+            
+            
+            y="-5" x="-5"
+        />
+         
+    </styles>
+
+   
+    
+    <view styles="main" scrollable="false">
+         
+        <icon src="img_tvs" bind_state_if_eq="tvs_on disabled 0"/>
+        <subtitle text="$title" flex_grow="1"/>
+        
+        <icon src="img_bell"  bind_state_if_eq="notification_on disabled 0"/>
+        <icon src="img_bluetooth" bind_state_if_eq="bluetooth_on disabled 0"/>
+        <icon src="img_wifi" bind_state_if_eq="wifi_on disabled 0"/>
+      <!-- Two buttons -->
+       
+        <row  width="40" style_flex_main_place="end" style_text_color="0xcaafaf" style_pad_column="0" >
+            <subtitle bind_text="hours"></subtitle>
+            <subtitle text=":"></subtitle>
+            <subtitle bind_text="mins"></subtitle>
+        </row>
+         
+   
+    </view>
+    
+  
+
+
+
+ 
+  
+        
+            
+
+    
+</component>

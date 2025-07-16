@@ -1,0 +1,10 @@
+<component>
+    <previews>
+        <preview width="1280" height="720"/>
+    </previews>
+
+    <view extends="lv_image" 
+          src="img_direction" />
+         
+        
+</component>

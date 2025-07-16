@@ -1,0 +1,28 @@
+<component>
+    <previews >
+        <preview  style_pad_all="10" style_bg_color="0x10ef5a" height="350" width="500" />
+
+    </previews>
+    <styles>
+        <style name="main" arc_width="15" bg_color="0x312a97"  bg_opa="100" radius="50" pad_all="28" arc_color="0x98313c"/>
+        <style name="indicator" arc_color="0xead618" arc_width="15" />
+        <style name="knob" bg_opa="0"   />
+    </styles>
+
+    <api>
+        <prop name="subject" type="subject" default="temp1"> </prop>
+    </api>
+
+
+
+
+        
+    
+    <view  extends="lv_arc"  width="245" height="222"  bind_value="$subject" styles="main indicator:indicator knob:knob" x="153" y="40">
+        
+        <lv_label text="80 KM/H"  style_pad_all="49" style_pad_left="60"  bind_text="$subject" x="0" y="0" width="132" height="118" ></lv_label>
+        <lv_label text="KM/H"  style_pad_all="65" x="5" y="8"  ></lv_label>
+
+    </view>
+    
+</component>

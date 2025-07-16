@@ -1,0 +1,16 @@
+<component>
+    <previews>
+        <preview width="720" height="600" style_pad_all="80" style_bg_color="0x7b9eab"/>  
+        
+    </previews>
+
+    <api>
+        <prop name="main" type="subject" default="speed"/>
+    </api>
+
+     <view extends="lv_arc" style_pad_left="40" style_pad_top="30" width="388" height="320" x="-9" y="-22"> 
+
+    
+        <lv_label align="center" bind_text="$speed" styles="label_style"/>
+    </view>
+</component>

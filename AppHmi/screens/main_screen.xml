@@ -1,0 +1,12 @@
+<screen>
+  
+   
+    <view width="100%" height="100%" flex_flow="column">
+        <lv_label text="SpeedoMeter" style_pad_left="80" width="197" height="21"> </lv_label>
+        <guage width="290" height="178" style_pad_left="60">
+
+             </guage>
+  
+    </view>
+
+</screen>

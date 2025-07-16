@@ -1,0 +1,43 @@
+<globals>
+   <images>
+    <data name="img_wifi" src_path="images/wifi-solid.png"/>
+        <data name="img_bluetooth" src_path="images/bluetooth-brands.png"/>
+        <data name="img_bell" src_path="images/bell-solid.png"/>
+        <data name="img_tvs" src_path="images/tvs-motor.png" />
+        <data name="img_speed" src_path="images/SpeedometerCenter.png"/>
+        <data name="img_back" src_path="images/Background.png" file_format="png" />
+        <data name="img_arc" src_path="images/SpeedMain.png" file_format="png" />
+        <data name="img_indicator" src_path="images/SpeedometerIndicator.png" file_format="png" />
+
+        <data name="img_left_ind" src_path="images/left_ind.png" file_format="png" />
+        <data name="img_right_ind" src_path="images/right_ind.png" file_format="png" />
+        <data name="img_music_bar" src_path="images/music_bar.png" file_format="png" />
+        <data name="img_nav_bar" src_path="images/nav_bar.png" file_format="png" />
+        <data name="img_nav_box" src_path="images/nav_box.png" file_format="png" />
+        <data name="img_next" src_path="images/next.png" file_format="png" />
+        <data name="img_prev_music" src_path="images/prev_music.png" file_format="png" />
+        <data name="img_icon_bar" src_path="images/icon_bar.png" file_format="png" />
+        <data name="img_album" src_path="images/album_circle.png" file_format="png" />
+        <data name="img_play" src_path="images/play.png" file_format="png" />
+
+        <data name="img_needle" src_path="images/Needle.png" file_format="png" />
+        
+
+    </images>
+
+    <fonts>
+        <tiny_ttf name="font_title" size="20" src_path="fonts/Inter-SemiBold.ttf"/>
+        <tiny_ttf name="font_subtitle" size="14" src_path="fonts/Inter-SemiBold.ttf"/>
+    </fonts>
+
+    <subjects>
+        <int name="hours" value="17"/>
+        <int name="mins" value="45"/>
+        <int name="age" value="17"/>
+        <int name="bluetooth_on" value="0"/>
+        <int name="wifi_on" value="0"/>
+        <int name="notification_on" value="0"/>
+        <int name="hour_edited" value="0"/>
+        <int name="min_edited" value="0"/>
+    </subjects>
+</globals>

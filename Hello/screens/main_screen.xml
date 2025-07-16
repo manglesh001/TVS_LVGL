@@ -1,0 +1,9 @@
+<screen>
+    <view width="100%" height="100%" flex_flow="row_wrap">
+        <thermostat temp="temp1" />
+         <thermostat temp="temp2" />
+          <thermostat temp="temp3" bind_flag_if_eq="hide hidden 1" />
+          <lv_checkbox  text="Hide arc3" bind_checked="hide" flex_in_new_track="true" ></lv_checkbox>
+        
+</view>
+</screen>

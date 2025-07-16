@@ -1,0 +1,17 @@
+<component>
+    <previews>
+        <preview style_bg_color="0xcaacac" width="600" height="480"/>
+    </previews>
+
+    <consts>
+        <int name="size" value="200"/>
+    </consts>
+    
+    <styles>
+        <style name="main" width="#size" height="#size" image_recolor="0xff0000"
+        image_recolor_opa="255"/>
+        <style name="off" image_opa="128"/>
+    </styles>
+    
+    <view extends="lv_image" src="img_tvs" styles="main off:disabled" inner_align="stretch" x="175" y="29"></view> 
+</component>

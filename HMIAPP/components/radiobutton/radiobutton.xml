@@ -1,0 +1,28 @@
+<component>
+    <api>
+        <prop name="text" type="string" />
+        <prop name="subject" type="subject" />
+    </api>
+
+    <styles>
+        <style name="main"
+            width="content" height="content"
+            
+            pad_row="8"
+        />
+        <style name="radio" 
+            radius="50%" border_width="2" border_color="0xffffff"
+            width="16" height="16"
+            bg_color="0xffffff" bg_opa="0"
+        />
+        <style name="radio_checked" 
+            bg_opa="255" bg_color="0xffffff"
+        />
+    </styles>
+
+    <view styles="main">
+        <lv_obj styles="radio radio_checked:$subject"/>
+        <subtitle text="$text"/>
+        
+    </view>
+</component>
